@@ -12,10 +12,10 @@ llvmPackages_13.stdenv.mkDerivation rec {
   version = "0.9.1";
 
   src = fetchFromGitHub {
-    owner = "ziglang";
+    owner = "dit7ya";
     repo = pname;
-    rev = version;
-    hash = "sha256-x2c4c9RSrNWGqEngio4ArW7dJjW0gg+8nqBwPcR721k=";
+    rev = "c8a7db5459ca363429a39a996276c858969c4cde";
+    hash = "sha256-dId8/n1fwnbpf5Pt3ykxacyNOvJPiKuQPkIMzh5+HTY=";
   };
 
   nativeBuildInputs = [
